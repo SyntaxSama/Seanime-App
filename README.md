@@ -1,7 +1,7 @@
 # Seanime
 Seanime is an anime streaming & manga platform this app is not an official application by seanime, this is made for android users to enjoy seanime on their phone this application requires termux, you have been warned!
 
-# How To Use This Application
+# How To Use/Install
 1) Install termux from the app store.
 2) Download the apk installer from the releases page, go through the installation steps run the scan etc.
 3) Open the seanime app that you just installed
