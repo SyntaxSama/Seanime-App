@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         serverChecker.checkAndStart()
 
         val updater = AppUpdateNotifier(this)
-        updater.checkForUpdate(ReleaseVersions.CURRENT.version)
+        updater.checkForUpdate(ReleaseVersions.VERSION_CURRENT.version)
 
     }
 

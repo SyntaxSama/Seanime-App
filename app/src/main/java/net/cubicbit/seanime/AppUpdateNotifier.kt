@@ -50,11 +50,11 @@ class AppUpdateNotifier(private val activity: Activity) {
         AlertDialog.Builder(activity).apply {
             setTitle("Seanime App Is Outdated")
             setMessage("""
-                Your currently on version ${ReleaseVersions.VERSION.version} (${ReleaseVersions.VERSION.versionName})
+                Your currently on version v${ReleaseVersions.VERSION_CURRENT.version} (${ReleaseVersions.VERSION_CURRENT.versionName})
                 
-                The latest app version is ${ReleaseVersions.RELEASE.versionName} (${ReleaseVersions.RELEASE.versionName})
-                if you wish to update to the latest version please tap on Update Now if you wish to
-                not update and stay on this version please tap on Later!
+                The latest app version is v${ReleaseVersions.RELEASE_LATEST.version} (${ReleaseVersions.RELEASE_LATEST.versionName})
+                
+                if you wish to update to the latest version please tap on Update Now if you wish to not update and stay on this version please tap on Later!
             """.trimIndent())
             setPositiveButton("Update Now") { _, _ ->
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(updateUrl))
