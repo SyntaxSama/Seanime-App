@@ -13,10 +13,8 @@ Just a fair notice, you will be thrown entirely into full screen mode when using
 auto updates are non existent on this app so its recommended to check this if an update is on here, you will know by being in the seanime discord you can always ping and ask me my handle on discord is the same as my github profile handle.
 
 # How To Update
-1) Uninstall your current version of the app
-2) Delete the old installer
-3) Download the new installer & follow the installer steps again
-4) Done you're now updated!
+1) Download the new installer & tap on update
+2) Done you're now updated!
 
 # DISCLAIMER!
 If you have any issues with this app, for whatever reason do NOT ping or ask the creator of seanime for support, this is NOT an official app there for rendering this as useless to ask him for help. Reach out to the creator of this app on discord in his server (Issue a ping!)
